@@ -1,0 +1,90 @@
+.writing{
+    padding: 10px;
+    padding-bottom: 0px;
+    height: 25%;
+    width: 25%;
+    float: left;
+}
+.craft{
+    padding-bottom: 0px;
+    padding: 10px;
+    height: 25%;
+    width: 25%; 
+    float: left;
+}
+.divs{
+    padding-top: 80px;
+    padding: 10px;
+    width: 40%;
+}
+body{
+    background-color: #FEFAE0;
+}
+.para{
+    margin: 2px;
+    color: #DAB88B;
+    font-family: 'Old Standard TT', serif;
+}
+.heads{
+    margin: 4px;
+    font-family: 'Bacasime Antique', serif;
+    padding: 0px;
+    font-size: 25px;
+    color: #675D50;
+}
+.heading{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    font-size: 60px;
+    color: #DAB88B;
+    font-family: 'Bacasime Antique', serif;
+}
+.creative{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 60px;
+    color: #675D50;
+}
+.heading1{
+    position:absolute;
+    width: 100%;
+    margin: 0px;
+    left: 0px;
+    background-color: #CCD5AE;
+}
+#div11{
+    padding-top: 6%;
+    width: 47%;
+    float: left;
+}
+#div22{
+    padding-top: 6%;
+    width: 47%;
+    float: right;
+}
+@media (max-width: 680px){
+    #div11{
+        padding-top: 60px;
+        width: 100%;
+        
+    }
+    #div22{
+        width: 100%;
+      
+    }
+    .heading{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 20px;
+        font-size: 40px;
+        color: #DAB88B;
+        font-family: 'Bacasime Antique', serif;
+    }
+    .creative{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 40px;
+        color: #675D50;
+    }
+}
